@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className="hero">
       <div className="hero-inner">
-        <p className="hero-tamil">கல்வி · தொழில் · வளர்ச்சி · சொத்து · சமூகம்</p>
+        <p className="hero-tamil">கல்வி · தொழில் · வளர்ச்சி · சொத்து · வெற்றி</p>
         <h1 className="hero-title">
           <span className="line1" id="typingLine">One Group.</span>
           <span className="line2">Seven Growth Engines.</span>
