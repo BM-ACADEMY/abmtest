@@ -6,55 +6,55 @@ import CursorCanvas from './CursorCanvas';
 import WhatsAppFloat from './WhatsAppFloat';
 
 const roadmapMilestones = [
-  {
-    year: '2012',
-    title: 'Travel Partner',
-    text: 'TravellersNeed is a travel-based initiative focused on seamless journey planning',
-    color: '#0ea5e9',
-    rgb: '14, 165, 233'
-  },
-  {
-    year: '2013',
-    title: 'EduTech & Abroad',
-    text: 'EduConsultants Study Abroad & College Admission Experts',
-    color: '#ea580c',
-    rgb: '234, 88, 12'
-  },
-  {
-    year: '2022',
-    title: 'Group Inception',
-    text: 'Foundation of ABM Groups',
-    color: '#1e3a8a',
-    rgb: '30, 58, 138'
-  },
-  {
-    year: '2023',
-    title: 'Sector Growth',
-    text: 'Growth across four core sectors: Web, Academy, Food, and EdTech',
-    color: '#2563eb',
-    rgb: '37, 99, 235'
-  },
-  {
-    year: '2024',
-    title: 'Expansion',
-    text: 'Brand consolidation and market expansion',
-    color: '#9333ea',
-    rgb: '147, 51, 234'
-  },
-  {
-    year: '2025',
-    title: 'Automations',
-    text: 'Automations, global training programs, and franchising opportunities',
-    color: '#16a34a',
-    rgb: '22, 163, 74'
-  },
-  {
-    year: '2026',
-    title: 'PropTech Launch',
-    text: 'Namma Pondy Properties - Launch of Pondicherry\'s hyperlocal property portal',
-    color: '#2ecc9a',
-    rgb: '46, 204, 154'
-  }
+    {
+        year: '2012',
+        title: 'Travel Partner',
+        text: 'TravellersNeed is a travel-based initiative focused on seamless journey planning',
+        color: '#0ea5e9',
+        rgb: '14, 165, 233'
+    },
+    {
+        year: '2013',
+        title: 'EduTech & Abroad',
+        text: 'EduConsultants Study Abroad & College Admission Experts',
+        color: '#ea580c',
+        rgb: '234, 88, 12'
+    },
+    {
+        year: '2023',
+        title: 'Group Inception',
+        text: 'Foundation of ABM Groups',
+        color: '#1e3a8a',
+        rgb: '30, 58, 138'
+    },
+    {
+        year: '2023',
+        title: 'Sector Growth',
+        text: 'Growth across four core sectors: Web, Academy, Food, and EdTech',
+        color: '#2563eb',
+        rgb: '37, 99, 235'
+    },
+    {
+        year: '2024',
+        title: 'Expansion',
+        text: 'Brand consolidation and market expansion',
+        color: '#9333ea',
+        rgb: '147, 51, 234'
+    },
+    {
+        year: '2025',
+        title: 'Automations',
+        text: 'Automations, global training programs, and franchising opportunities',
+        color: '#16a34a',
+        rgb: '22, 163, 74'
+    },
+    {
+        year: '2026',
+        title: 'PropTech Launch',
+        text: 'Namma Pondy Properties - Launch of Pondicherry\'s hyperlocal property portal',
+        color: '#2ecc9a',
+        rgb: '46, 204, 154'
+    }
 ];
 
 const Ceo = () => {
@@ -64,7 +64,7 @@ const Ceo = () => {
     React.useEffect(() => {
         const line = document.querySelector('.roadmap-line');
         const items = document.querySelectorAll('.roadmap-item');
-        
+
         const obs = new IntersectionObserver(
             (entries) => {
                 entries.forEach((e) => {
@@ -76,10 +76,10 @@ const Ceo = () => {
             },
             { threshold: 0.15, rootMargin: '0px 0px -100px 0px' }
         );
-        
+
         if (line) obs.observe(line);
         items.forEach((item) => obs.observe(item));
-        
+
         return () => obs.disconnect();
     }, []);
 
@@ -199,10 +199,10 @@ const Ceo = () => {
                         {roadmapMilestones.map((m, i) => {
                             const isLeft = i % 2 === 0;
                             return (
-                                <div 
-                                    key={i} 
+                                <div
+                                    key={i}
                                     className={`roadmap-item ${isLeft ? 'left-card' : 'right-card'}`}
-                                    style={{ 
+                                    style={{
                                         '--m-color': m.color,
                                         '--m-color-rgb': m.rgb,
                                         '--m-shadow': m.color + '30'
