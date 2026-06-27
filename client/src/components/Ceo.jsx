@@ -1,5 +1,5 @@
 import React from 'react';
-import { Camera, MessageCircle, Calendar } from 'lucide-react';
+import { Camera, MessageCircle, Calendar, Mail } from 'lucide-react';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import CursorCanvas from './CursorCanvas';
@@ -153,11 +153,12 @@ const Ceo = () => {
                             </p>
 
                             <div className="about-handles ceo-animate" style={{ marginTop: '32px', animationDelay: '0.55s' }}>
-                                <a href="https://www.instagram.com/kamarudeen_bm/" target="_blank" rel="noopener noreferrer" className="handle-link">
-                                    <Camera size={18} /> @kamarudeen_bm
-                                </a>
-                                <a href="https://wa.me/919944940051" target="_blank" rel="noopener noreferrer" className="handle-link">
+                                <a href="mailto:ceo@abmgroups.org" className="handle-link"><Mail size={16} /> Email</a>
+                                <a href="https://wa.me/918056889971?text=Hello%20!%20I%20reached%20out%20from%20the%20ABM%20Groups%20website." target="_blank" rel="noopener noreferrer" className="handle-link">
                                     <MessageCircle size={16} /> WhatsApp
+                                </a>
+                                <a href="https://www.instagram.com/kamarudeen_bm/" target="_blank" rel="noopener noreferrer" className="handle-link">
+                                    <Camera size={18} /> Instagram
                                 </a>
                             </div>
                         </div>
