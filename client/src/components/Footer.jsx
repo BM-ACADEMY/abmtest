@@ -27,7 +27,7 @@ export default function Footer() {
             Tamil Nadu, India
           </p>
           <div className="spacer"></div>
-          <p className="f-tagline">+91 99442 88271<br />+91 94038 92971 <br />+91 99449 40051 <br /></p>
+          <p className="f-tagline">+91 99449 40051 <br />+91 99442 88271<br />+91 94038 92971 <br /></p>
         </div>
         <div>
           <div className="f-col-title">Our Brands</div>
@@ -44,7 +44,7 @@ export default function Footer() {
           <div className="f-col-title">Connect</div>
           <a href="https://wa.me/919944940051" target="_blank" className="f-link"><MessageCircle size={12} /> WhatsApp</a>
           <a href="mailto:admin@abmgroups.org" className="f-link"><Mail size={12} /> admin@abmgroups.org</a>
-          <a href="tel:+919944288271" className="f-link"><Phone size={12} /> +91 99442 88271</a>
+          <a href="tel:+919944940051" className="f-link"><Phone size={12} /> +91 99449 40051</a>
           <a href="https://www.instagram.com/abmgroups_/" target="_blank" className="f-link"><Camera size={12} /> Instagram</a>
         </div>
         <div>
