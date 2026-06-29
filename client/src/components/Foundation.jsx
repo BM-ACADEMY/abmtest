@@ -34,7 +34,7 @@ export default function Foundation() {
           {/* Right Column */}
           <div>
             <div className="found-quote">
-              "என் வெற்றி என் சமூகத்துக்கு திரும்ப செல்ல வேண்டும். அதுதான் ABM Groups கட்டியதன் அர்த்தம்." — Kamarudeen BM
+              "என் வெற்றி என் சமூகத்திற்கு திரும்ப செல்ல வேண்டும். அதுதான் ABM Groups கட்டியதன் அர்த்தம்." — Kamarudeen BM
             </div>
             {/* Right Side: Stats */}
             <div className="found-right" style={{ marginTop: '24px' }}>
