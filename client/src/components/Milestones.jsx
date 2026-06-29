@@ -1,11 +1,11 @@
 import React from 'react';
 
 const milestones = [
-  { year: '2010', event: 'BM TechX Founded', detail: 'Started as a solo digital agency in Kottakuppam, Pondicherry' },
-  { year: '2014', event: 'First 100 Clients', detail: 'BM TechX crosses 100 business clients across Tamil Nadu' },
+  { year: '2013', event: 'BM TechX Founded', detail: 'Started as a solo digital agency in Kottakuppam, Pondicherry' },
+  { year: '2016', event: 'First 100 Clients', detail: 'BM TechX crosses 100 business clients across Tamil Nadu' },
   { year: '2018', event: 'BM Academy Launched', detail: 'Digital skills training begins — first batch of 12 students' },
-  { year: '2020', event: 'ABM Groups Born', detail: 'Multi-brand group structure formed — 3 brands under one roof' },
   { year: '2022', event: '1,000 Students Milestone', detail: "BM Academy crosses 1,000 trained students — Tamil Nadu's #1" },
+  { year: '2023', event: 'ABM Groups Born', detail: 'Multi-brand group structure formed — 3 brands under one roof' },
   { year: '2023', event: 'NPP & CoreTalents Launch', detail: 'Real estate and hyperlocal jobs portal added to the group' },
   { year: '2024', event: 'LeadOS & AI Stack Built', detail: 'In-house AI WhatsApp CRM — LeadOS goes live for BM TechX clients' },
   { year: '2025', event: '7 Brands. ₹50Cr+ Impact.', detail: 'EduConsultants added. Full AI-first group with pan-TN presence', isCurrent: true },

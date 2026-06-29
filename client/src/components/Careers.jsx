@@ -20,7 +20,7 @@ export default function Careers() {
           {roles.map((role, i) => (
             <div className="career-card" key={i}>
               <span className="career-role">{role}</span>
-              <a href="https://wa.me/919944940051" target="_blank" className="career-apply">Apply →</a>
+              <a href="https://wa.me/919944940051?text=Hello!%20I%20reached%20out%20from%20the%20ABM%20Groups%20website." target="_blank" className="career-apply">Apply →</a>
             </div>
           ))}
         </div>

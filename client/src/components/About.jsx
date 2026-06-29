@@ -1,4 +1,4 @@
-import { Camera, Zap, MessageCircle } from 'lucide-react';
+import { Camera, Zap, MessageCircle, Mail } from 'lucide-react';
 
 export default function About() {
   return (
@@ -46,9 +46,9 @@ export default function About() {
             His vision: an AI-first, automation-heavy group where every brand feeds the next — the ABM Flywheel. From BM Academy to BM Foundation, every brand has a purpose beyond profit.
           </p>
           <div className="about-handles">
-            <a href="https://www.instagram.com/kamarudeen_bm/" target="_blank" className="handle-link"><Camera size={18} /> @kamarudeen_bm</a>
-            <a href="https://wa.me/919944940051" target="_blank" className="handle-link"><MessageCircle size={16} /> WhatsApp</a>
-            <a href="https://www.instagram.com/growwithkamar/" target="blank" className="handle-link"><Zap size={18} /> @growwithkamar</a>
+            <a href="mailto:ceo@abmgroups.org" className="handle-link"><Mail size={16} /> Email</a>
+            <a href="https://wa.me/918056889971?text=Hello%20!%20I%20reached%20out%20from%20the%20ABM%20Groups%20website." target="_blank" rel="noopener noreferrer" className="handle-link"><MessageCircle size={16} /> WhatsApp</a>
+            <a href="https://www.instagram.com/kamarudeen_bm/" target="_blank" rel="noopener noreferrer" className="handle-link"><Camera size={18} /> Instagram</a>
           </div>
         </div>
       </div>

@@ -127,10 +127,10 @@ export default function SocialMedia() {
               <div className="sc-picon"><Phone size={18} /></div>
               <div className="sc-platform">Direct Call</div>
               <div className="sc-name">BM Academy Admissions</div>
-              <div className="sc-handle">+91 99442 88271</div>
+              <div className="sc-handle">+91 99449 40051</div>
               <div className="sc-divider"></div>
               <div className="sc-foot">
-                <a href="https://wa.me/919944940051" className="sc-btn">Call Now →</a>
+                <a href="tel:+91994494051" className="sc-btn">Call Now →</a>
                 <span className="sc-arr">→</span>
               </div>
             </div>
@@ -149,7 +149,7 @@ export default function SocialMedia() {
                 </div>
                 <div className="sc-wa-left"></div>
               </div>
-              <a href="https://wa.me/919944940051" target="_blank" className="sc-btn">💬 Chat on WhatsApp</a>
+              <a href="https://wa.me/919944940051?text=Hello%20!%20I%20reached%20out%20from%20the%20ABM%20Groups%20website." target="_blank" className="sc-btn"> Chat on WhatsApp</a>
             </div>
           </div>
 

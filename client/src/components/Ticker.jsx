@@ -2,7 +2,7 @@ import React from 'react';
 
 const tickerItems = [
   'கல்வி', 'ABM Groups', 'தொழில்', 'BM Academy', 'வளர்ச்சி', 'BM TechX',
-  'சொத்து', 'Namma Pondy', 'படிப்பு', 'EduConsultants', 'சமூகம்',
+  'சொத்து', 'Namma Pondy', 'படிப்பு', 'EduConsultants', 'வெற்றி',
   'BM Foundation', 'உணவு', "Dada's Kitchen", 'பயணம்', 'TravellersNeed',
   'வேலை', 'CoreTalents',
 ];
